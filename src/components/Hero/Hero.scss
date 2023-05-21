@@ -1,0 +1,17 @@
+.hero-container{
+    display: flex;
+
+    .hero-img{
+        flex: 1;
+        background-color: var(--primary-color);
+        position: relative;
+        img{
+            width: 120%;
+            height: 100%;
+        }
+    }
+
+    .hero-text{
+        flex: 1.25;
+    }
+}
