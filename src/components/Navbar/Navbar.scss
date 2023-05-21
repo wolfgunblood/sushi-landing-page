@@ -1,0 +1,39 @@
+.navbar{
+    // width: 100%;
+    display: flex;
+    overflow: hidden;
+    .navbar__head{
+        flex: 1;
+        position: relative;
+        padding: 20px;
+        
+        h2{
+            color: white;
+        }
+        .navbar__overlay{
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            z-index: -1;
+            background-color: var(--primary-color);
+        }
+    }
+    .navbar__list{
+        flex: 1.25;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 64px;
+        list-style: none;
+
+        li{
+            font-weight: 500;
+            font-family: var(--plus-jakarta-sans);
+            color: var(--secondary-color);
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+    }
+}
