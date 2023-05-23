@@ -1,4 +1,3 @@
-import React from 'react';
 import "./Hero.scss"
 import Sushi1 from  "../../assets/sushi-1.png";
 
