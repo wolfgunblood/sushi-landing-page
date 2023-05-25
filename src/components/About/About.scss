@@ -1,0 +1,92 @@
+.about-container{
+    width: 100%;
+    display: flex;
+    min-height: 720px;
+
+    .about__image{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        gap: 5px;
+        .about__image1{
+            flex: 1;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            padding: 32px 64px;
+            background-image: url(../../assets/about_bg1.png);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            img{
+                width: 200px;
+                height: 200px;
+            }
+        }
+        
+        .about__image2{
+            flex: 1;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            padding: 32px 64px;
+            background-image: url(../../assets/about_bg2.png);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            
+            img{
+                width: 250px;
+                height: 150px;
+            }
+        }
+
+        button{
+            position: absolute;
+            right: 0;
+            top: 340px;
+            background-color: black;
+            color: #fff;
+            padding: 12px 32px;
+            border: 0;
+            outline: 0;
+            cursor: pointer;
+            border-radius: 32px 0 0 32px;
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+    .about__text{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        padding: 64px;
+        // align-items: center;
+        justify-content: center;
+
+        .sushi__subtitle{
+            color: var(--primary-color);
+            font-size: 18px;
+            font-weight: 400;
+            font-family: var(--plus-jakarta-sans);
+            line-height: 36px;
+            letter-spacing: 0.1em;
+        }
+        .sushi__title{
+            font-size: 64px;
+            margin-top: 20px;
+            font-weight: 600;
+            font-family: var(--playfair-display);
+        }
+        .sushi__text{
+            font-size: 18px;
+            font-weight: 400;
+            font-family: var(--plus-jakarta-sans);
+            opacity: 0.8;
+            margin: 32px 0;
+            letter-spacing: 0.01em;
+            line-height: 32px;
+        }
+    }
+}
