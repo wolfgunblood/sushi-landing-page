@@ -1,0 +1,47 @@
+.popularFoods{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    background-image: url(../../assets/popular_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    .popularFoods__title{
+        font-size: 74px;
+        line-height: 80px;
+        text-align: center;
+    }
+    .popularFoods__list{
+        // min-width: 100%;
+        margin-top: 48px;
+        width: 100%;
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .popularFoods__catalogue{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 56px;
+        margin-top: 24px;
+
+        .popularFoods__catalogue-item{
+            display: flex;
+            flex-direction: column;
+            
+            img{
+                height: 150px;
+                width: 150px;
+            }
+            .popularFoods__catalogue-item-title{
+
+            }
+        }
+    }
+}
