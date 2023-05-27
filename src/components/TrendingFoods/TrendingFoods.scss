@@ -1,0 +1,50 @@
+.trending-foods{
+    display: flex;
+    flex-direction: column;
+
+    .upper{
+        flex: 1;
+        display: flex;
+
+        .upper__content{
+            flex: 1;
+            padding: 64px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        .upper__image{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+    .lower{
+        flex: 1;
+        display: flex;
+        .lower__content{
+            flex: 1;
+            padding: 64px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        .lower__image{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+}
