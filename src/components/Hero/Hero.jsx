@@ -1,6 +1,7 @@
 import "./Hero.scss"
 import Sushi1 from "../../assets/sushi-1.png";
-import circle from "../../assets/play-circle.svg"
+import circle from "../../assets/play-circle.svg";
+import user from "../../assets/user.png";
 
 const Hero = () => {
   return (
@@ -34,6 +35,10 @@ const Hero = () => {
               35 <span> k+</span>
             </h2>
             <p>Happy Customer</p>
+          </div>
+          <div className="hero-testimonial__user">
+            <img src={user} alt="User" />
+            <p>This is the best Japanese food delivery service that ever existed.</p>
           </div>
         </div>
       </div>
