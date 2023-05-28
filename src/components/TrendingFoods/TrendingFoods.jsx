@@ -2,8 +2,7 @@ import React from 'react';
 import "./TrendingFoods.scss";
 import LeftSushi from "../../assets/sushi-5.png";
 import RightSushi from "../../assets/sushi-4.png";
-import Check from "../../assets/check.svg";
-
+import { AiFillCheckCircle } from "react-icons/ai"
 
 const TrendingFoods = () => {
     return (
@@ -15,17 +14,29 @@ const TrendingFoods = () => {
                     <p className="upper__description">Feel the taste of the most delicious Sushi here.</p>
                     <ul className='upper__list'>
                         <li>
-                            <img src={Check} alt="check" />
+                            <AiFillCheckCircle className="check" size={25}  />
+                            <p>Make Sushi</p>
                         </li>
                         <li>
-                            <img src={Check} alt="check" />
+                            <AiFillCheckCircle className="check" size={25}  />
+                            <p>Uramaki Sushi</p>
                         </li>
                         <li>
-                            <img src={Check} alt="check" />
+                            <AiFillCheckCircle className="check" size={25}  />
+                            <p>Tenmaki Sushi</p>
                         </li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>
+                            <AiFillCheckCircle className="check" size={25}  />
+                            <p>Oshizu Sushi</p>
+                        </li>
+                        <li>
+                            <AiFillCheckCircle className="check" size={25}  />
+                            <p>Nigiri Sushi</p>
+                        </li>
+                        <li>
+                            <AiFillCheckCircle className="check" size={25}  />
+                            <p>Inari Sushi</p>
+                        </li>
                     </ul>
                 </div>
                 <div className='upper__image'>
@@ -41,12 +52,30 @@ const TrendingFoods = () => {
                     <h3 className="lower__title">Japanese Drinks</h3>
                     <p className="lower__description">Feel the taste of the most delicious Sushi here.</p>
                     <ul className='lower__list'>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>
+                        <AiFillCheckCircle className="check" size={25}  />
+                        <p>Oruncha</p>
+                        </li>
+                        <li>
+                        <AiFillCheckCircle className="check" size={25}  />
+                            <p>Sakura Tea</p>
+                        </li>
+                        <li>
+                        <AiFillCheckCircle className="check" size={25}  />
+                            <p>Aojira</p>
+                        </li>
+                        <li>
+                        <AiFillCheckCircle className="check" size={25}  />
+                            <p>Komba-cha</p>
+                        </li>
+                        <li>
+                        <AiFillCheckCircle className="check" size={25}  />
+                            <p>Ofukucha</p>
+                        </li>
+                        <li>
+                        <AiFillCheckCircle className="check" size={25}  />
+                            <p>Mugicha</p>
+                        </li>
                     </ul>
                 </div>
             </div>

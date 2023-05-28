@@ -72,7 +72,7 @@ const popularFoods = () => {
 
             <button className='explore-btn'>
                 Explore Foods
-                <BsArrowRight size={30} />
+                <BsArrowRight size={25} />
             </button>
         </section>
     )
