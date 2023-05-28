@@ -42,6 +42,9 @@ const TrendingFoods = () => {
                     <img src={LeftSushi} alt="sushi1" />
                 </div>
             </div>
+            <button className="discover-btn">
+                Discover
+            </button>
             <div className='lower'>
                 <div className='lower__image'>
                     <img src={RightSushi} alt="sushi2" />

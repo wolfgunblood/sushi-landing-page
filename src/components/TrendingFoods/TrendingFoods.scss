@@ -1,6 +1,29 @@
 .trending-foods{
     display: flex;
     flex-direction: column;
+    position: relative;
+
+    .discover-btn{
+        position: absolute;
+        top: 47%;
+        left: 46%;
+
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+
+        outline: none;
+        border: none;
+
+        background-color: var(--secondary-color);
+        color: var(--color-white);
+
+        font-size: 16px;
+        font-family: var(--playfair-display);
+        font-weight: 500;
+        padding: 20px;
+
+    }
 
     .upper{
         flex: 1;
