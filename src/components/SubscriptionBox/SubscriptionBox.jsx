@@ -1,13 +1,14 @@
-import React from 'react'
+import React from 'react';
+import "./SubscriptionBox.scss";
 
 const SubscriptionBox = () => {
   return (
-    <section>
-      <h2>Get offers staright to your inbox</h2>
-      <p>Sign Up for the NewsLetter</p>
-      <div>
-      <input type="text" />
-      <button>Get Started</button>
+    <section className='subscription-box-container'>
+      <h2 className='subscription-box-title'>Get offers straight <br /> to your inbox</h2>
+      <p className='subscription-box-text'>Sign Up for the NewsLetter</p>
+      <div className='subscription-box-input-container'>
+        <input type="text" placeholder='Ennter Your Email'/>
+        <button>Get Started</button>
       </div>
     </section>
   )
