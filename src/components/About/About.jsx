@@ -1,6 +1,7 @@
 import "./About.scss";
 import Sushi1 from "../../assets/sushi-3.png";
 import Sushi2 from "../../assets/sushi-2.png";
+import { BsArrowUpRight } from "react-icons/bs";
 
 const About = () => {
     return (
@@ -11,6 +12,7 @@ const About = () => {
                 </div>
                 <button>
                     Learn More
+                    <BsArrowUpRight size={25} />
                 </button>
                 <div className='about__image2'>
                     <img src={Sushi2} alt="Sushi-two" />
