@@ -5,7 +5,7 @@ import About from './components/About/About';
 import PopularFoods from './components/popular-foods/popular-foods';
 import TrendingFoods from './components/TrendingFoods/TrendingFoods';
 import SubscriptionBox from './components/SubscriptionBox/SubscriptionBox';
-import Footer from './components/footer/footer';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (

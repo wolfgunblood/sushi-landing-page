@@ -1,4 +1,3 @@
-import React from 'react';
 import "./Footer.scss"
 import Twitter from "../../assets/twitter.svg"
 import Facebook from "../../assets/facebook.svg"

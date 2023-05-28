@@ -1,4 +1,3 @@
-import React from 'react';
 import "./popular-foods.scss";
 import sushi from "../../assets/sushi-9.png"
 import ramen from "../../assets/sushi-8.png"

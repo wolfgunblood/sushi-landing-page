@@ -1,4 +1,3 @@
-import React from 'react';
 import "./TrendingFoods.scss";
 import LeftSushi from "../../assets/sushi-5.png";
 import RightSushi from "../../assets/sushi-4.png";
