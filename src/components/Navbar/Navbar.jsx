@@ -1,4 +1,5 @@
 import './Navbar.scss';
+import { AiOutlineSearch } from  "react-icons/ai";
 
 const Navbar = () => {
   return (
@@ -12,6 +13,9 @@ const Navbar = () => {
             <li>FOOD</li>
             <li>SERVICES</li>
             <li>ABOUT US</li>
+            <li>
+              <AiOutlineSearch className='navbar__search' size={25} color='#121212'/>
+            </li>
         </ul>
     </nav>
   )
