@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
         <div className='navbar__head'>
-            <h2>SUSHIMAN</h2>
+            <h2>SUSHISHOP</h2>
             <div className='navbar__overlay'></div>
         </div>
         <ul className='navbar__list'>

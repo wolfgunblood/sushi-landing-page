@@ -4,6 +4,8 @@
   Sushi Shop Landing Page built with React
 </p>
 
+
+
 ## Short Description 📋
 The Sushi Shop Landing Page is a captivating and responsive web page built using React. It serves as an introduction to a virtual sushi shop, providing visitors with a visually appealing and immersive experience. With a focus on user engagement, the landing page showcases a wide range of sushi delicacies, enticing users to explore the menu and place their orders. The use of React allows for a seamless and interactive user interface, ensuring a smooth navigation experience. The Sushi Shop Landing Page aims to capture the essence of a traditional sushi shop while leveraging modern web technologies to deliver a delightful and informative online presence.
 
