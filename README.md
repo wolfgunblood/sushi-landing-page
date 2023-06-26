@@ -15,6 +15,8 @@ The Sushi Shop Landing Page is a captivating and responsive web page built using
 ## Showcase 🎬
 You can see my application below.
 
+![Screenshot](./Screenshot.png)
+
 ## Features ✨
 - Responsiveness for mobile, tablet and desktop
 - Real-time adoption of changes
